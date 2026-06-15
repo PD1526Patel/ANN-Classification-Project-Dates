@@ -28,6 +28,8 @@ The neural network is built with PyTorch and has the following layer structure:
 
 ### Network Structure
 
+![Model Architecture](model_architecture.png)
+
 ```
 Input (34 features) ──> Dense (64) ──> ReLU ──> Dense (64) ──> ReLU ──> Output (7)
 ```
@@ -46,6 +48,7 @@ Input (34 features) ──> Dense (64) ──> ReLU ──> Dense (64) ──> R
 
 * `ANN_Classification.ipynb` - Jupyter notebook containing data loading, preprocessing, model definition, training, and evaluation.
 * `DateFruit_Dataset.csv` - The date fruit dataset containing morphological, color, and texture features.
+* `model_architecture.png` - Standard block diagram representation of the network (referenced in this README).
 * `.gitignore` - Standard configuration to exclude notebook checkpoint directories and Python cache files.
 * `README.md` - Project documentation (this file).
 
